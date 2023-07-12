@@ -20,6 +20,7 @@
                     </div>
                 </div> --}}
                 <a href="/contact" class="nav-item nav-link {{ request()->is('contact') ? 'active' : '' }}">Contact</a>
+                <a href="/news" class="nav-item nav-link {{ request()->is('news', 'news/*') ? 'active' : '' }}">News</a>
             </div>
             {{-- <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Sign-up</a> --}}
         </div>
