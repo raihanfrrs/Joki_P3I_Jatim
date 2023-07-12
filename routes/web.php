@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NewsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,6 +30,7 @@ Route::get('contact', function () {
     return view('contact');
 });
 
-Route::controller(LayoutController::class)->group(function () {
-    Route::get('/', 'index');
+Route::controller(NewsController::class)->group(function () {
+    Route::get('news', 'index');
+    Route::get('news/{news}', 'show');
 });
