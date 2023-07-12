@@ -45,7 +45,7 @@
                         <h6 class="text-white font-weight-medium m-0">Forum dan Pertemuan</h6>
                     </div>
                     <p>{{ Str::limit('P3I menyelenggarakan forum dan pertemuan berkala di mana perusahaan-perusahaan anggota dapat bertukar ide, berbagi pengalaman, dan menjalin kemitraan.', 75, '...') }}</p>
-                    <a class="border-bottom text-decoration-none" href="">Read More</a>
+                    <a class="border-bottom text-decoration-none" href="/service">Read More</a>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
@@ -53,7 +53,7 @@
                         <h6 class="text-white font-weight-medium m-0">Pendidikan dan Pelatihan</h6>
                     </div>
                     <p>{{ Str::limit('P3I menyediakan program pendidikan dan pelatihan untuk meningkatkan keterampilan dan pengetahuan para profesional periklanan.', 75, '...') }}</p>
-                    <a class="border-bottom text-decoration-none" href="">Read More</a>
+                    <a class="border-bottom text-decoration-none" href="/service">Read More</a>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
@@ -61,7 +61,7 @@
                         <h6 class="text-white font-weight-medium m-0">Penghargaan dan Kompetisi</h6>
                     </div>
                     <p>{{ Str::limit('P3I juga mengadakan penghargaan dan kompetisi periklanan, seperti Piala Citra, yang bertujuan untuk menghargai dan mengakui keunggulan dalam industri periklanan.', 75, '...') }}</p>
-                    <a class="border-bottom text-decoration-none" href="">Read More</a>
+                    <a class="border-bottom text-decoration-none" href="/service">Read More</a>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
@@ -69,7 +69,7 @@
                         <h6 class="text-white font-weight-medium m-0">Advokasi dan Hubungan Masyarakat</h6>
                     </div>
                     <p>{{ Str::limit('P3I berperan sebagai wakil perusahaan-perusahaan periklanan dalam hubungan dengan pemerintah dan masyarakat.', 75, '...') }}</p>
-                    <a class="border-bottom text-decoration-none" href="">Read More</a>
+                    <a class="border-bottom text-decoration-none" href="/service">Read More</a>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
                         <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>+62 21 12345678</h6></li>
                         <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>info@p3i-indonesia.org</h6></li>
                     </ul>
-                    <span class="text-primary"><a href="/contact">See More...</a></span>
+                    <a href="/contact" class="btn btn-primary mt-3 py-2 px-4">See More</a>
                 </div>
             </div>
         </div>
