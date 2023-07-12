@@ -18,10 +18,10 @@
                 <a class="text-white px-2" href="#">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a class="text-white px-2" href="#">
+                <a class="text-white px-2" href="https://www.instagram.com/p3i.jakarta">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a class="text-white pl-2" href="#">
+                <a class="text-white pl-2" href="https://www.youtube.com/@P3IJakarta">
                     <i class="fab fa-youtube"></i>
                 </a>
             </div>
