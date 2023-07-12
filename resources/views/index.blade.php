@@ -178,7 +178,7 @@
                 </div>
             </div>
             <div class="text-center pb-5">
-                <a href="/teams" class="text-primary">See More...</a>
+                <a href="/team" class="text-primary">See More...</a>
             </div>
         </div>
     </div>
