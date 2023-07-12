@@ -105,7 +105,7 @@
         <div class="container">
             <div class="text-center pb-2">
                 <h6 class="text-primary text-uppercase font-weight-bold">Team</h6>
-                <h1 class="mb-4">TITLE</h1>
+                <h1 class="mb-4">Our Team</h1>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6">
@@ -113,8 +113,8 @@
                         <img class="card-img-top" src="img/background.jpg" alt="">
                         <div class="card-body text-center p-0">
                             <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <span>Designation</span>
+                                <h5 class="font-weight-bold">Haries Purwoko</h5>
+                                <span>Ketua Umum</span>
                             </div>
                             <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-outline-dark btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -130,8 +130,8 @@
                         <img class="card-img-top" src="img/background.jpg" alt="">
                         <div class="card-body text-center p-0">
                             <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <span>Designation</span>
+                                <h5 class="font-weight-bold">Drs. Agus Winoto</h5>
+                                <span>Sekretaris Umum</span>
                             </div>
                             <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-outline-dark btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -147,8 +147,8 @@
                         <img class="card-img-top" src="img/background.jpg" alt="">
                         <div class="card-body text-center p-0">
                             <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <span>Designation</span>
+                                <h5 class="font-weight-bold">Eko Suhariyadi</h5>
+                                <span>Ketua 1 Pendidikan Pengembangan</span>
                             </div>
                             <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-outline-dark btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -164,8 +164,8 @@
                         <img class="card-img-top" src="img/background.jpg" alt="">
                         <div class="card-body text-center p-0">
                             <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <span>Designation</span>
+                                <h5 class="font-weight-bold">Rinto TPM</h5>
+                                <span>Ketua 2 Media Luar Ruang</span>
                             </div>
                             <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-outline-dark btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -176,6 +176,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="text-center pb-5">
+                <a href="/teams" class="text-primary">See More...</a>
             </div>
         </div>
     </div>
@@ -183,57 +186,115 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center pb-2">
-                <h6 class="text-primary text-uppercase font-weight-bold">News</h6>
-                <h1 class="mb-4">OUR NEWS</h1>
+                <h6 class="text-primary text-uppercase font-weight-bold">Our News</h6>
+                <h1 class="mb-4">Latest From News</h1>
             </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="position-relative bg-secondary p-4">
-                    <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid rounded-circle" src="{{ asset('/') }}img/image-6.jpg" style="width: 60px; height: 60px;" alt="">
-                        <div class="ml-3">
-                            <h6 class="font-weight-semi-bold m-0"><a href="/news/p3i-mengadakan-acara-networking-untuk-anggota-baru">P3I Mengadakan Acara Networking untuk Anggota Baru</a></h6>
-                            <small>- Author</small>
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}img/image-6.jpg" alt="">
+                        <div class="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
+                            style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
+                            <h4 class="font-weight-bold mb-n1">12</h4>
+                            <small class="text-white text-uppercase">Jul</small>
                         </div>
                     </div>
-                    <p class="m-0">{{ Str::limit('Pada tanggal (tanggal acara), P3I mengadakan acara networking khusus bagi anggota baru. Acara ini bertujuan untuk memperkenalkan perusahaan-perusahaan anggota baru kepada anggota yang sudah ada sekaligus memfasilitasi kolaborasi dan pertukaran ide antar mereka.', 200, '...') }}</p>
+                    <div class="bg-secondary" style="padding: 30px;">
+                        <div class="d-flex mb-3">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle" style="width: 40px; height: 40px;" src="img/user.jpg" alt="">
+                                <a class="text-muted ml-2" href="#">RizkyAkbare</a>
+                            </div>
+                            <div class="d-flex align-items-center ml-4">
+                                <i class="far fa-bookmark text-primary"></i>
+                                <a class="text-muted ml-2" href="#">Author</a>
+                            </div>
+                        </div>
+                        <h4 class="font-weight-bold mb-3">P3I Mengadakan Acara Networking untuk Anggota Baru</h4>
+                        <p>{{ Str::limit('Pada tanggal (tanggal acara), P3I mengadakan acara networking khusus bagi anggota baru. Acara ini bertujuan untuk memperkenalkan perusahaan-perusahaan anggota baru kepada anggota yang sudah ada sekaligus memfasilitasi kolaborasi dan pertukaran ide antar mereka.', 200, '...') }}</p>
+                        <a class="border-bottom border-primary text-uppercase text-decoration-none" href="">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
                 </div>
-                <div class="position-relative bg-secondary p-4">
-                    <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid rounded-circle" src="{{ asset('/') }}img/image-7.jfif" style="width: 60px; height: 60px;" alt="">
-                        <div class="ml-3">
-                            <h6 class="font-weight-semi-bold m-0"><a href="/news/p3i-merayakan-tahun-keberhasilan-dalam-industri-periklanan">P3I Merayakan Tahun Keberhasilan dalam Industri Periklanan</a></h6>
-                            <small>- Author</small>
+                
+                <div class="col-md-6 mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}img/image-7.jfif" alt="">
+                        <div class="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
+                            style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
+                            <h4 class="font-weight-bold mb-n1">10</h4>
+                            <small class="text-white text-uppercase">Jun</small>
                         </div>
                     </div>
-                    <p class="m-0">{{ Str::limit('P3I merayakan pencapaian penting dalam industri periklanan pada tanggal (tanggal perayaan). Acara ini diadakan sebagai apresiasi terhadap dedikasi dan kerja keras perusahaan-perusahaan anggota P3I dalam menciptakan kampanye periklanan yang sukses dan berdampak.', 200, '...') }}</p>
+                    <div class="bg-secondary" style="padding: 30px;">
+                        <div class="d-flex mb-3">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle" style="width: 40px; height: 40px;" src="img/user.jpg" alt="">
+                                <a class="text-muted ml-2" href="#">RizkyAkbare</a>
+                            </div>
+                            <div class="d-flex align-items-center ml-4">
+                                <i class="far fa-bookmark text-primary"></i>
+                                <a class="text-muted ml-2" href="#">Author</a>
+                            </div>
+                        </div>
+                        <h4 class="font-weight-bold mb-3">P3I Merayakan Tahun Keberhasilan dalam Industri Periklanan</h4>
+                        <p>{{ Str::limit('P3I merayakan pencapaian penting dalam industri periklanan pada tanggal (tanggal perayaan). Acara ini diadakan sebagai apresiasi terhadap dedikasi dan kerja keras perusahaan-perusahaan anggota P3I dalam menciptakan kampanye periklanan yang sukses dan berdampak.', 200, '...') }}</p>
+                        <a class="border-bottom border-primary text-uppercase text-decoration-none" href="">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
                 </div>
-                <div class="position-relative bg-secondary p-4">
-                    <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid rounded-circle" src="{{ asset('/') }}img/image-8.jfif" style="width: 60px; height: 60px;" alt="">
-                        <div class="ml-3">
-                            <h6 class="font-weight-semi-bold m-0"><a href="/news/p3i-membuka-pendaftaran-program-pelatihan-kreativitas-periklanan">P3I Membuka Pendaftaran Program Pelatihan Kreativitas Periklanan</a></h6>
-                            <small>- Author</small>
+
+                <div class="col-md-6 mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}img/image-8.jfif" alt="">
+                        <div class="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
+                            style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
+                            <h4 class="font-weight-bold mb-n1">17</h4>
+                            <small class="text-white text-uppercase">May</small>
                         </div>
                     </div>
-                    
-                    <p class="m-0">{{ Str::limit('P3I membuka pendaftaran untuk program pelatihan kreativitas periklanan yang akan diselenggarakan pada bulan (bulan pelatihan). Program ini ditujukan bagi para profesional periklanan yang ingin mengasah keterampilan kreatif mereka dalam menghasilkan ide-ide periklanan yang inovatif dan efektif.', 200, '...') }}</p>
+                    <div class="bg-secondary" style="padding: 30px;">
+                        <div class="d-flex mb-3">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle" style="width: 40px; height: 40px;" src="img/user.jpg" alt="">
+                                <a class="text-muted ml-2" href="#">RizkyAkbare</a>
+                            </div>
+                            <div class="d-flex align-items-center ml-4">
+                                <i class="far fa-bookmark text-primary"></i>
+                                <a class="text-muted ml-2" href="#">Author</a>
+                            </div>
+                        </div>
+                        <h4 class="font-weight-bold mb-3">P3I Membuka Pendaftaran Program Pelatihan Kreativitas Periklanan</h4>
+                        <p>{{ Str::limit('P3I membuka pendaftaran untuk program pelatihan kreativitas periklanan yang akan diselenggarakan pada bulan (bulan pelatihan). Program ini ditujukan bagi para profesional periklanan yang ingin mengasah keterampilan kreatif mereka dalam menghasilkan ide-ide periklanan yang inovatif dan efektif.', 200, '...') }}</p>
+                        <a class="border-bottom border-primary text-uppercase text-decoration-none" href="">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
                 </div>
-                <div class="position-relative bg-secondary p-4">
-                    <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid rounded-circle" src="{{ asset('/') }}img/image-9.jpg" style="width: 60px; height: 60px;" alt="">
-                        <div class="ml-3">
-                            <h6 class="font-weight-semi-bold m-0"><a href="/news/p3i-mendukung-kampanye-sosial-berkelanjutan-dalam-industri-periklanan">P3I Mendukung Kampanye Sosial Berkelanjutan dalam Industri Periklanan</a></h6>
-                            <small>- Author</small>
+
+                <div class="col-md-6 mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}img/image-9.jpg" alt="">
+                        <div class="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
+                            style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
+                            <h4 class="font-weight-bold mb-n1">3</h4>
+                            <small class="text-white text-uppercase">Mar</small>
                         </div>
                     </div>
-                    <p class="m-0">{{ Str::limit('P3I berkomitmen untuk mendukung kampanye sosial berkelanjutan dalam industri periklanan. Dalam rangka ini, P3I telah meluncurkan program inisiatif yang mengedepankan nilai-nilai sosial dan lingkungan dalam kampanye periklanan.', 200, '...') }}</p>
+                    <div class="bg-secondary" style="padding: 30px;">
+                        <div class="d-flex mb-3">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle" style="width: 40px; height: 40px;" src="img/user.jpg" alt="">
+                                <a class="text-muted ml-2" href="#">RizkyAkbare</a>
+                            </div>
+                            <div class="d-flex align-items-center ml-4">
+                                <i class="far fa-bookmark text-primary"></i>
+                                <a class="text-muted ml-2" href="#">Author</a>
+                            </div>
+                        </div>
+                        <h4 class="font-weight-bold mb-3">P3I Mendukung Kampanye Sosial Berkelanjutan dalam Industri Periklanan</h4>
+                        <p>{{ Str::limit('P3I berkomitmen untuk mendukung kampanye sosial berkelanjutan dalam industri periklanan. Dalam rangka ini, P3I telah meluncurkan program inisiatif yang mengedepankan nilai-nilai sosial dan lingkungan dalam kampanye periklanan.', 200, '...') }}</p>
+                        <a class="border-bottom border-primary text-uppercase text-decoration-none" href="/news">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>

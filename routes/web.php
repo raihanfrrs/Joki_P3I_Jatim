@@ -28,3 +28,7 @@ Route::get('service', function () {
 Route::get('contact', function () {
     return view('contact');
 });
+
+Route::controller(LayoutController::class)->group(function () {
+    Route::get('/', 'index');
+});
